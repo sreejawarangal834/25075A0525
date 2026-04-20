@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="ISO-8859-1">
+<title>Catalog</title>
+
+<!-- Bootstrap CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+
+<div class="container py-4">
+  <h2 class="text-center mb-4">Product Catalog</h2>
+
+  <div class="row g-4">
+
+    <!-- Product 1 -->
+    <div class="col-md-4 col-lg-3">
+      <div class="card h-100 shadow-sm text-center">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/q/h/-original-imahgfmzjj8gtqbc.jpeg?q=70"
+             class="card-img-top p-3" style="height:260px; object-fit:contain;">
+        <div class="card-body">
+          <h6 class="card-title">Apple iPhone 16</h6>
+          <span class="badge bg-danger mb-2">13% OFF</span>
+          <p class="text-danger small">Limited time deal</p>
+          <h5 class="fw-bold">55,999/-</h5>
+          <button class="btn btn-primary w-100 mt-2"
+            onclick="addToCart('Apple iPhone 16',55999,'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/q/h/-original-imahgfmzjj8gtqbc.jpeg?q=70')">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="col-md-4 col-lg-3">
+      <div class="card h-100 shadow-sm text-center">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/1/k/g/-original-imahgynnzvyjucyf.jpeg?q=70"
+             class="card-img-top p-3" style="height:260px; object-fit:contain;">
+        <div class="card-body">
+          <h6>Galaxy S24 5G</h6>
+          <span class="badge bg-danger">30% OFF</span>
+          <p class="text-danger small">Limited time deal</p>
+          <h5>40,999/-</h5>
+          <button class="btn btn-primary w-100"
+            onclick="addToCart('Galaxy S24 5G',40999,'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/1/k/g/-original-imahgynnzvyjucyf.jpeg?q=70')">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="col-md-4 col-lg-3">
+      <div class="card h-100 shadow-sm text-center">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=70"
+             class="card-img-top p-3" style="height:260px; object-fit:contain;">
+        <div class="card-body">
+          <h6>Vivo T4x 5G</h6>
+          <span class="badge bg-danger">11% OFF</span>
+          <p class="text-danger small">Limited time deal</p>
+          <h5>14,999/-</h5>
+          <button class="btn btn-primary w-100"
+            onclick="addToCart('Vivo T4x 5G',14999,'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=70')">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="col-md-4 col-lg-3">
+      <div class="card h-100 shadow-sm text-center">
+        <img src="https://rukminim2.flixcart.com/image/300/300/xif0q/mobile/2/o/9/-original-imahgqnzt97efyph.jpeg?q=90"
+             class="card-img-top p-3" style="height:260px; object-fit:contain;">
+        <div class="card-body">
+          <h6>Motorola G57</h6>
+          <span class="badge bg-danger">10% OFF</span>
+          <p class="text-danger small">Limited time deal</p>
+          <h5>13,999/-</h5>
+          <button class="btn btn-primary w-100"
+            onclick="addToCart('Motorola-G57',13999,'https://rukminim2.flixcart.com/image/300/300/xif0q/mobile/2/o/9/-original-imahgqnzt97efyph.jpeg?q=90')">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="col-md-4 col-lg-3">
+      <div class="card h-100 shadow-sm text-center">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/j/a/b/-original-imah83eztbdcsknu.jpeg?q=70"
+             class="card-img-top p-3" style="height:260px; object-fit:contain;">
+        <div class="card-body">
+          <h6>Motorola g05 (64 GB)</h6>
+          <span class="badge bg-danger">20% OFF</span>
+          <p class="text-danger small">Limited time deal</p>
+          <h5>22,999/-</h5>
+          <button class="btn btn-primary w-100"
+            onclick="addToCart('Motorola g05(Forest Green,64 GB)',22999,'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/j/a/b/-original-imah83eztbdcsknu.jpeg?q=70')">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="col-md-4 col-lg-3">
+      <div class="card h-100 shadow-sm text-center">
+        <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/a/x/-original-imahfkvfhcddfzvh.jpeg?q=70"
+             class="card-img-top p-3" style="height:260px; object-fit:contain;">
+        <div class="card-body">
+          <h6>Vivo T4 Lite 5G</h6>
+          <span class="badge bg-danger">8% OFF</span>
+          <p class="text-danger small">Limited time deal</p>
+          <h5>From 11,999/-</h5>
+          <button class="btn btn-primary w-100"
+            onclick="addToCart('vivo T4 Lite 5G',11999,'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/a/x/-original-imahfkvfhcddfzvh.jpeg?q=70')">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+function addToCart(name, price, image) {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  cart.push({ name, price, image });
+  localStorage.setItem("cart", JSON.stringify(cart));
+  window.location.href = "cart.html";
+}
+</script>
+
+</body>
+</html>
