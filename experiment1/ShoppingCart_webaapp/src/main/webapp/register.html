@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register</title>
+<style>
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+.form-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+h2 { text-align: center; margin-bottom: 1rem; }
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+input {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  padding: 0.8rem;
+  border: none;
+  background: #2575fc;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+a { text-align: center; color: #2575fc; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="form-container">
+  <h2>Create Account</h2>
+  <form>
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Password" required>
+    <input type="password" placeholder="Confirm Password" required>
+             
+                     <button onclick="window.location.href='catalog.html'">
+  Register
+</button>
+                     
+                    
+             
+    
+    <br>
+
+    <a href="login.html">
+ Login here!
+</a>
+    
+  </form>
+  
+</div>
+</body>
+</html>
