@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Your Cart</h2>
+
+<div class="container">
+
+  <!-- Display cart items -->
+  <form action="controller" method="post">
+    <input type="hidden" name="action" value="viewCart">
+    <button type="submit">View Cart</button>
+  </form>
+
+  <br>
+
+  <!-- Checkout -->
+  <form action="controller" method="post">
+    <input type="hidden" name="action" value="checkout">
+    <button type="submit">Checkout</button>
+  </form>
+
+</div>
+
+<br>
+
+<a href="catalog.html">⬅ Back to Catalog</a>
+
+</body>
+</html>

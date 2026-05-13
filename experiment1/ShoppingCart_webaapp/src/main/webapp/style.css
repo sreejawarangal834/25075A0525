@@ -1,0 +1,38 @@
+ body
+{
+    margin: 0px;
+    padding: 0;
+ }
+button
+{
+    background-color: #514caf; /* Green */
+    
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width:200px;
+    height:100%;
+   
+}
+input{
+    width: 100px;
+    height: 20px
+}
+label
+{
+    min-width: 400px;
+}
+s{
+    display: inline-block;
+    justify-content: center;
+}
+card{
+	border:2px solid black;
+	border-radius:10px;
+}
+back{
+	background-color:#cdf53e;
+}
